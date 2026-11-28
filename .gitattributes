@@ -1,0 +1,16 @@
+# Normalise every text file to LF in the repository and in the working tree.
+* text=auto eol=lf
+
+# Binary files: never normalise or diff as text.
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.webp   binary
+*.pdf    binary
+*.woff   binary
+*.woff2  binary
+*.zip    binary
+*.gz     binary
+*.onnx   binary

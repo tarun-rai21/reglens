@@ -1,0 +1,43 @@
+# --- Secrets and local environment ---------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Python (uv workspace) -----------------------------------------------
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# --- Node / Next.js (pnpm) -----------------------------------------------
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+.pnpm-store/
+npm-debug.log*
+pnpm-debug.log*
+
+# --- Test reports --------------------------------------------------------
+test-results/
+playwright-report/
+blob-report/
+
+# --- Logs and OS files ---------------------------------------------------
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
